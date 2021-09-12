@@ -1,0 +1,83 @@
+@media (max-width: 739px) {
+    #header {
+        overflow: hidden;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+    } 
+
+    #nav .subnav {
+        display: none;
+        position: initial;
+        background-color: black;
+        top: 100%;
+        min-width: 160px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    
+    #nav .subnav a {
+        color: white;
+        padding: 8px 32px;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .menu-btn {
+        display: inline-block;
+    }
+
+    .colum-three {
+        width: 100%;
+        float: initial;
+    }
+
+    .colum-two {
+        float: initial;
+        width: auto;
+    }
+
+    #content .team-img {
+        border-radius: 4px;
+        width: 60%;
+    }
+
+    .book-place .book-place-btn {
+        width: 100%;
+    }
+
+    .contact-form {
+        margin-top: 16px;
+    }
+
+    .contact .contact-send {
+        width: 100%;
+    }
+
+    .contact .contact-name,
+    .contact .contact-email {
+        padding: 0;
+    }
+}
+
+@media (max-width: 1023px) {
+    #footer .footer-icon > a {
+        font-size: 28px;
+        margin: 0 4px;
+    }
+
+    #footer .footer-text {
+        font-size: 20px;
+        margin-top: 28px;
+    }
+}
